@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestro Universo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<nav>
+
+    <div class="logo">
+        Nuestro Universo
+    </div>
+
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+</nav>
+
+<section class="hero" id="inicio">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>Nuestro Universo</h1>
+
+        <p class="frase">
+            Mientras otras  solo te reaccionan historias...
+            <br><br>
+            yo programé la nuestra en constelaciones de amor 🌠❤️
+        </p>
+
+        <div class="botones">
+
+            <button id="explorar">
+                Explorar
+            </button>
+
+            <button id="musica">
+                🎵 Música
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="historia">
+
+    <h2>Nuestra Historia</h2>
+
+    <div class="cards">
+        <div class="card">
+
+            <h3>✨ Primer Destello</h3>
+
+            <p>
+                Todo gran universo comienza con una pequeña chispa.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🌌 Galaxias</h3>
+
+            <p>
+                Miles de estrellas formando recuerdos únicos.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>❤️ Destino</h3>
+
+            <p>
+                Hay personas destinadas a encontrarse sin importar la distancia.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="galeria">
+
+    <h2>Nuestro Espacio</h2>
+
+    <div class="imagenes">
+
+        <div class="imagen"></div>
+
+        <div class="imagen"></div>
+
+        <div class="imagen"></div>
+
+        <div class="imagen"></div>
+
+        <div class="imagen"></div>
+
+        <div class="imagen"></div>
+
+    </div>
+
+<!-- MODAL CONTACTO -->
+<div id="modalContacto" class="modal">
+  <div class="modal-content">
+    <span id="cerrarModal" class="close">&times;</span>
+    <h2>"No existe un universo suficientemente grande para medir todo lo que significas."</h2>
+    <p class="firma">✨ Con cariño, Yami ❤️</p>
+  </div>
+</div>
+
+
+
+    <section id="videoSection" style="display:none; text-align:center; padding:100px;">
+        <video id="miVideo" controls width="900">
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- 🔊 AUDIO (también al final del body) -->
+    <audio id="audio" loop>
+        <source src="assets/musica.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- 📜 SCRIPT SIEMPRE AL FINAL -->
+    <script src="script.js"></script>
+
+</body>
+</html>
