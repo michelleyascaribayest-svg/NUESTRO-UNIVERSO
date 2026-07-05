@@ -103,7 +103,10 @@ const rutas = [
     "assets/yami3.webp",
     "assets/yami4.webp",
     "assets/thony.jpg",
-    "assets/thony2.jpg"
+    "assets/thony2.jpg",
+    "assets/thony3.jpeg",
+    "assets/thony4.jpeg",
+    "assets/thony5.jpeg"
 ];
 
 imagenes.forEach((img, i) => {
