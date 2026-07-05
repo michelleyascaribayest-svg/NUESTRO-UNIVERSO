@@ -585,3 +585,10 @@ background-position:left;
   font-family: 'Cinzel', serif;
   text-shadow: 0 0 10px rgba(255,105,180,0.6);
 }
+.imagen {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #000; /* para ver el espacio si no carga */
+}

@@ -151,3 +151,12 @@ window.addEventListener("click", (e) => {
         modalContacto.style.display = "none";
     }
 });
+];
+
+imagenes.forEach((imagen, index) => {
+    if (rutas[index]) {
+        imagen.style.backgroundImage = `url('${rutas[index]}')`;
+        imagen.style.backgroundSize = "cover";
+        imagen.style.backgroundPosition = "center";
+    }
+});
